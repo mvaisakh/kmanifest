@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="master" remote="aosp" sync-j="4" />
-  <remote name="github" fetch="https://github.com"/>
+  <remote name="github" fetch="https://github.com/"/>
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline" />
 
@@ -33,4 +33,7 @@
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="external/stardoc" name="platform/external/stardoc" />
+
+  <!-- Oneplus 7 kernel -->
+  <project path="kernel/oneplus/sm8150" name="mvaisakh/oneplus7" revision="base-riced" />
 </manifest>
