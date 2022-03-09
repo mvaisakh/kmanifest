@@ -36,4 +36,7 @@
 
   <!-- Oneplus 7 kernel -->
   <project path="kernel/oneplus/sm8150" name="mvaisakh/oneplus7" revision="base-riced" />
+
+  <!-- EvaGCC -->
+  <project path="prebuilts/gcc/host/linux-x86/aarch64-elf" name="mvaisakh/gcc-arm64" clone-depth="1" />
 </manifest>
