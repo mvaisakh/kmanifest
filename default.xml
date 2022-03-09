@@ -37,7 +37,9 @@
   <project path="external/stardoc" name="platform/external/stardoc" />
 
   <!-- Oneplus 7 kernel -->
-  <project path="kernel/oneplus/sm8150" name="mvaisakh/oneplus7" revision="base-riced" remote="github"/>
+  <project path="kernel/oneplus/sm8150" name="mvaisakh/oneplus7" revision="base-riced" remote="github" >
+    <linkfile src="build.config.oneplus7" dest="build.config"/>
+  </project>
 
   <!-- EvaGCC -->
   <project path="prebuilts/gcc/host/linux-x86/aarch64-elf" name="mvaisakh/gcc-arm64" clone-depth="1" revision="gcc-new" remote="github"/>
