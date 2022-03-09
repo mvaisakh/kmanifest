@@ -40,5 +40,5 @@
   <project path="kernel/oneplus/sm8150" name="mvaisakh/oneplus7" revision="base-riced" remote="github"/>
 
   <!-- EvaGCC -->
-  <project path="prebuilts/gcc/host/linux-x86/aarch64-elf" name="mvaisakh/gcc-arm64" clone-depth="1" remote="github"/>
+  <project path="prebuilts/gcc/host/linux-x86/aarch64-elf" name="mvaisakh/gcc-arm64" clone-depth="1" revision="gcc-new" remote="github"/>
 </manifest>
